@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1705999733 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/Drinks.cpp
+	"Drinks.h"
+	<iostream>
+
+1706036006 /home/alexander/CodeBLocks Workplace/Projects/Shop/Drinks.h
+	<iostream>
+	<string>
+	<vector>
+
+1706047331 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/main.cpp
+	<iostream>
+	"Drinks.h"
+	"Alcoholic.h"
+	"NonAlcoholic.h"
+	<vector>
+	"Orders.h"
+	"User.h"
+
+1705999930 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/Alcoholic.cpp
+	"Alcoholic.h"
+
+1705918026 /home/alexander/CodeBLocks Workplace/Projects/Shop/Alcoholic.h
+	"Drinks.h"
+
+1705999914 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/NonAlcoholic.cpp
+	"NonAlcoholic.h"
+
+1705919107 /home/alexander/CodeBLocks Workplace/Projects/Shop/NonAlcoholic.h
+	"Drinks.h"
+
+1705925944 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/Order.cpp
+	"Order.h"
+	<iostream>
+
+1705927737 /home/alexander/CodeBLocks Workplace/Projects/Shop/Order.h
+	"Drinks.h"
+	<vector>
+	<iostream>
+
+1706046922 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/Orders.cpp
+	"Orders.h"
+	<iostream>
+
+1706046928 /home/alexander/CodeBLocks Workplace/Projects/Shop/Orders.h
+	"Drinks.h"
+	<vector>
+	<iostream>
+
+1706047269 source:/home/alexander/CodeBLocks Workplace/Projects/Shop/User.cpp
+	<iostream>
+	<vector>
+	"User.h"
+
+1706047412 /home/alexander/CodeBLocks Workplace/Projects/Shop/User.h
+	"Orders.h"
+	<iostream>
+	<vector>
+
