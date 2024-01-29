@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1706256953 source:/home/alexander/CodeBLocks Workplace/Projects/scdsadsa/main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+
