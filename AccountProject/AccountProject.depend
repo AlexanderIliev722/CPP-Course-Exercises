@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1705189446 source:/home/alexander/CodeBLocks Workplace/Projects/AccountProject/main.cpp
+	<iostream>
+	"Account.h"
+
+1705189917 /home/alexander/CodeBLocks Workplace/Projects/AccountProject/Account.h
+	<iostream>
+
+1705189008 source:/home/alexander/CodeBLocks Workplace/Projects/AccountProject/Account.cpp
+	"Account.h"
+
