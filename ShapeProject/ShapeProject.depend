@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1705479861 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/main.cpp
+	<iostream>
+	"Shape.h"
+	"TwoDimensionalShape.h"
+	"ThreeDimensionalShape.h"
+	<vector>
+	"Square.h"
+
+1705485993 /home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Shape.h
+	<iostream>
+
+1705999015 /home/alexander/CodeBLocks Workplace/Projects/ShapeProject/TwoDimensionalShape.h
+	"Shape.h"
+
+1705409945 /home/alexander/CodeBLocks Workplace/Projects/ShapeProject/ThreeDimensionalShape.h
+	"Shape.h"
+
+1705482533 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Shape.cpp
+	"Shape.h"
+
+1705482247 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/ThreeDimensionalShape.cpp
+	"ThreeDimensionalShape.h"
+	<iostream>
+
+1705482038 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/TwoDimensionalShape.cpp
+	"TwoDimensionalShape.h"
+
+1705482483 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Square.cpp
+	"Square.h"
+
+1705480356 /home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Square.h
+	"TwoDimensionalShape.h"
+
+1705483714 source:/home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Rectangle.cpp
+	"Rectangle.h"
+
+1705483980 /home/alexander/CodeBLocks Workplace/Projects/ShapeProject/Rectangle.h
+	"TwoDimensionalShape.h"
+
+1705482533 source:/home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/Shape.cpp
+	"Shape.h"
+
+1705485993 /home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/Shape.h
+	<iostream>
+
+1705482483 source:/home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/Square.cpp
+	"Square.h"
+
+1705480356 /home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/Square.h
+	"TwoDimensionalShape.h"
+
+1705999015 /home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/TwoDimensionalShape.h
+	"Shape.h"
+
+1705482247 source:/home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/ThreeDimensionalShape.cpp
+	"ThreeDimensionalShape.h"
+	<iostream>
+
+1705409945 /home/alexander/CodeBLocksWorkplace/Projects/ShapeProject/ThreeDimensionalShape.h
+	"Shape.h"
+
