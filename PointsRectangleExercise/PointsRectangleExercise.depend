@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1706548007 source:/home/alexander/CodeBLocksWorkplace/Projects/PointsRectangleExercise/main.cpp
+	<iostream>
+	"Point.h"
+	"Rectangle.h"
+
+1706547910 /home/alexander/CodeBLocksWorkplace/Projects/PointsRectangleExercise/Point.h
+
+1706547921 /home/alexander/CodeBLocksWorkplace/Projects/PointsRectangleExercise/Rectangle.h
+	"Point.h"
+
+1706547946 source:/home/alexander/CodeBLocksWorkplace/Projects/PointsRectangleExercise/Point.cpp
+	"Point.h"
+
+1706547954 source:/home/alexander/CodeBLocksWorkplace/Projects/PointsRectangleExercise/Rectangle.cpp
+	"Rectangle.h"
+
