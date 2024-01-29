@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1705572960 source:/home/alexander/CodeBLocks Workplace/Projects/January18/main.cpp
+	<iostream>
+	<list>
+	<iterator>
+	<set>
+	<map>
+
