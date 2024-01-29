@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1705264985 source:/home/alexander/CodeBLocks Workplace/Projects/CinemaProject/Screening.cpp
+	"Screening.h"
+
+1705262133 /home/alexander/CodeBLocks Workplace/Projects/CinemaProject/Screening.h
+	<string>
+	<iostream>
+	<vector>
+
+1705267321 source:/home/alexander/CodeBLocks Workplace/Projects/CinemaProject/main.cpp
+	<iostream>
+	"Screening.h"
+	"Hall.h"
+
+1705263122 /home/alexander/CodeBLocks Workplace/Projects/CinemaProject/Hall.h
+	<iostream>
+	"Screening.h"
+	<vector>
+
+1705268284 source:/home/alexander/CodeBLocks Workplace/Projects/CinemaProject/Hall.cpp
+	"Hall.h"
+	<vector>
+
