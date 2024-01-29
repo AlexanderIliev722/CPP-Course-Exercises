@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1705255992 source:/home/alexander/CodeBLocks Workplace/Projects/CarProject/main.cpp
+	<iostream>
+	"Car.h"
+
+1705256217 /home/alexander/CodeBLocks Workplace/Projects/CarProject/Car.h
+	<iostream>
+	<vector>
+
+1705255907 source:/home/alexander/CodeBLocks Workplace/Projects/CarProject/Car.cpp
+	"Car.h"
+	"Car.h"
+
