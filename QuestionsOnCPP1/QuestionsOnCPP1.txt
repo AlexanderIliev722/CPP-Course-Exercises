@@ -1,0 +1,126 @@
+Ex.1
+It declares a pointer variable named ptr and initializes it to the value of var. A pointer variable stores the memory address of another variable.
+
+Декларира се пойнтер "ptr", който присвоява стойността на променлива "var". Пойнтера "ptr" държи адреса на другата променлива "var".
+
+Ex.2
+The while loop evaluates the condition before the loop body is executed.
+The do-while loop evaluates the condition after the loop body is executed.
+
+При while цикъл се проверява условието преди цикъла да бъде изпълнен.
+При do-while се проверява условието след като цикъла е изпълнен.
+
+Ex.3
+Пример:
+#include <iostream>
+using namespace std;
+
+int main(){
+int a[10];
+for(int i = 0; i < 10; ++i){
+   cout << a[i] << endl;
+}
+return 0;
+}
+
+In this example, the loop goes through an array of 10 integers and prints each one on a new line. Iterates 10 times because it starts at 0 and ends at 9 inclusive, that's 10 times.
+
+В този пример цикълът минава през масив от 10 цели числа и принтира всяко на нов ред. Итерира се 10 пъти, защото започва от 0 и завърша на 9 включително, това са 10 пъти.
+
+
+Ex.4
+#include <iostream>
+
+using namespace std;
+
+int square(int num) {
+    return num * num;
+}
+
+int main() {
+    int number;
+    cout << "Enter a number: ";
+    cin >> number;
+
+    int result = square(number);
+    cout << "The square of " << number << " is " << result << endl;
+
+    return 0;
+}
+
+A function can avoid code duplication because we can use it many times in different situations. This can save us time and make the code easier to read.
+
+Чрез функция може да се избегне дублиране на код, защото може да я използваме много пъти в различни ситуации. Това може да ни спести време и да се направи кода по лесен за четене.
+
+Ex.5
+Memory management is the process of allocating and deallocating memory for variables, objects, and other data structures used in a program. In C++, memory management is done with the "new" and "delete" operators. 
+
+Stack memory allocation - Its called stack memory allocation because the allocation happens in the function call stack. The size of memory to be allocated is known to the compiler and whenever a function is called, its variables get memory allocated on the stack. And whenever the function call is over, the memory for the variables is de-allocated. The programmer does not have to worry about memory allocation and de-allocation of stack variables.
+
+Heap memory allocation isn’t as safe as Stack memory allocation because the data stored in this space is accessible or visible to all threads. If a programmer does not handle this memory well, a memory leak can happen in the program.
+
+Управлението на паметта е процес на разпределяне и освобождаване на памет за променливи, обекти и други структури от данни, използвани в програма. В C++ управлението на паметта се прави с операторите "new" и "delete".
+
+Разпределение на стекова памет - Нарича се разпределение на стекова памет, защото разпределението се случва в стека за извикване на функция. Размерът на паметта, която трябва да бъде разпределена, е известен на компилатора и когато се извика функция, нейните променливи получават памет, разпределена в стека. И когато извикването на функцията приключи, паметта за променливите се освобождава. Програмистът не трябва да се тревожи за разпределението на паметта и премахването на променливите на стека.
+
+Разпределението на heap паметта не е толкова безопасно, колкото разпределението на паметта на стека(stack), тъй като данните, съхранявани в това пространство, са достъпни или видими за всички нишки. Ако програмистът не борави добре с тази памет, може да се случи изтичане на памет в програмата.
+
+Ex.6
+Encapsulation is one of the fundamental pillars of object-oriented programming (OOP), along with abstraction, inheritance, and polymorphism. It is the process of bundling data and the functions that operate on that data into a single unit called a class. This helps to protect the data from unauthorized access and ensures that it is used in a consistent and correct way.
+In C++, encapsulation is achieved using access specifiers. There are three main types of access specifiers: public, protected and private.
+
+Капсулирането е един от основни стълба на обектно-ориентираното програмиране (ООП), заедно с абстракцията, наследяването и полиморфизма. Това е процесът на групиране на данни и функциите, които оперират с тези данни в една единица, наречена клас. Това помага за защита на данните от неоторизиран достъп и гарантира, че се използват по последователен и правилен начин.
+В C++ капсулирането се постига с помощта на спецификатори за достъп. Има три основни типа спецификатори за достъп: публичен(public), защитен(protected) и частен(private).
+
+Ex.7
+In C++, exceptions are a way to handle errors that occur during program execution. They allow you to write code that can be interrupted and restarted after the error has been handled. This can help to make your code more robust and reliable.
+
+В C++ изключенията са начин за обработка на грешки, които възникват по време на изпълнение на програмата. Те ви позволяват да пишете код, който може да бъде прекъснат и рестартиран след отстраняване на грешката. Това може да помогне да направите кода си по-стабилен и надежден.
+
+Пример:
+try {
+//Code
+} catch (ExceptionType e) {
+  // Code to handle the exception
+}
+
+
+Ex.8
+The "std::vector" is a sequence container that encapsulates dynamic size arrays. It is a powerful and versatile container that is commonly used to store collections of objects in C++ programs.
+
+„std::vector“ е контейнер на последователност, който капсулира масиви с динамичен размер. Това е мощен и многофункционален контейнер, който обикновено се използва за съхраняване на колекции от обекти в C++ програми.
+
+
+Ex.9
+Pointers and references are two important concepts in C++ programming. They are both used to access the memory addresses of variables.
+
+Pointer - A variable that contains the memory address of another variable. 
+-Pointers can be dereferenced, which means that you can access the value of the variable that the pointer points to. 
+-Pointers are dynamic, which means that they can be reassigned to point to different variables. 
+-Pointers can be used to allocate and deallocate memory.
+
+Reference is an alias for another variable.
+-References cannot be null, which means that they must always point to a valid variable.
+-References are not dynamic, which means that they cannot be reassigned.
+-References cannot be used to allocate or deallocate memory.
+
+Пойнтерите и референциите са две важни концепции в програмирането на C++. И двете се използват за достъп до адресите на паметта на променливите.
+
+Пойнтер - променлива, която съдържа адреса на паметта на друга променлива.
+-Пойнтерите могат да бъдат дереферирани, което означава, че имате достъп до стойността на променливата, към която сочи указателят.
+- Пойнтерите са динамични, което означава, че могат да бъдат преназначени, за да сочат към различни променливи.
+-Пойнтерите могат да се използват за разпределяне и освобождаване на памет.
+
+Референцията е псевдоним за друга променлива.
+-Референциите не могат да бъдат нулеви, което означава, че винаги трябва да сочат към валидна променлива.
+-Референциите не са динамични, което означава, че не могат да бъдат преназначавани.
+-Референциите не могат да се използват за разпределяне или освобождаване на памет.
+
+Ex.10
+
+Templates enable generic programming, which is the practice of writing code that can work with different data types. This can make your code more flexible and reusable. This is done by using a template parameter, which is a placeholder for a data type. When the template is instantiated, the template parameter is replaced with a specific data type.
+
+Шаблоните позволяват generic програмиране, което е практика за писане на код, който може да работи с различни типове данни. Това може да направи вашия код по-гъвкав и многократно използваем. Това се прави с помощта на параметър на шаблон, който е контейнер за тип данни. Когато шаблонът се инстанцира, параметърът на шаблона се заменя с конкретен тип данни.
+
+
+
