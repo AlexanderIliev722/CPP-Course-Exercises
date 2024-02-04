@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1706721653 source:/home/alexander/CodeBLocksWorkplace/Projects/CppCodingTask1/Book.cpp
+	"Book.h"
+	<iostream>
+
+1706721643 /home/alexander/CodeBLocksWorkplace/Projects/CppCodingTask1/Book.h
+	<iostream>
+
+1706723103 source:/home/alexander/CodeBLocksWorkplace/Projects/CppCodingTask1/Member.cpp
+	"Member.h"
+
+1706722334 /home/alexander/CodeBLocksWorkplace/Projects/CppCodingTask1/Member.h
+	<iostream>
+	"Book.h"
+
+1706722995 source:/home/alexander/CodeBLocksWorkplace/Projects/CppCodingTask1/main.cpp
+	<iostream>
+	"Book.h"
+	"Member.h"
+
